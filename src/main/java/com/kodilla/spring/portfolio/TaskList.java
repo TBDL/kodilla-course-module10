@@ -1,4 +1,17 @@
 package com.kodilla.spring.portfolio;
 
-public class TaskList {
+import java.util.ArrayList;
+import java.util.List;
+
+public final class TaskList {
+
+    List<String> tasks;
+
+    public TaskList(){
+        tasks = new ArrayList<>();
+    }
+
+    public List<String> getTasks() {
+        return tasks;
+    }
 }
